@@ -1,0 +1,40 @@
+/* Reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+img {
+    width: 100%;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000
+}
+/* Reset */
+
+/* Clases Navbar*/
+
+.logo {
+    width: 150px;
+}
+
+.bg-navbar{
+    background-color: lightblue;
+}
+
+.nav-link {
+    color:#fff ;
+}
+.nav-link:hover {
+    color: grey;
+}
