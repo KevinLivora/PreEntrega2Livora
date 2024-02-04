@@ -24,17 +24,47 @@ a{
 
 /* Clases Navbar*/
 
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
 .logo {
     width: 150px;
+    border-radius: 100px;
 }
 
 .bg-navbar{
     background-color: lightblue;
+    border: solid;
 }
 
 .nav-link {
     color:#fff ;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 .nav-link:hover {
     color: grey;
+    transition: 1s;
 }
+
+.navbar-toggler {
+    background-color: #fff;
+    border: solid;
+}
+
+.navbar-toggler:hover {
+    background-color: grey;
+    transition: 1s;
+}
+
+.nav-item {
+    row-gap: 50px;
+}
+
+.navbar-nav {
+    gap: 1rem 10rem;
+}
+
+/* Clases Navbar*/
