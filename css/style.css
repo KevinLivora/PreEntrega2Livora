@@ -132,3 +132,20 @@ i {
 }
 
 /* Clases Footer*/
+
+/* Clases Productos */
+
+
+
+/* Clases Productos */
+
+.silla {
+    width: 10rem;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.sillon {
+    align-self: center;
+    box-sizing: border-box;
+}
