@@ -1,0 +1,141 @@
+// Reset 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+img {
+    width: 100%;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+// Reset 
+
+// Clases Navbar
+
+.logo {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.bg-navbar {
+    background-color: lightblue;
+    border: solid;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    &:hover {
+        color: grey;
+        transition: 1s;
+    }
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    border: solid;
+
+    &:hover {
+        background-color: grey;
+        transition: 1s;
+    }
+}
+
+.nav-item {
+    row-gap: 50px;
+}
+
+.navbar-nav {
+    gap: 1rem 10rem;
+}
+
+// Clases Navbar
+
+// Clases Footer
+
+.footer {
+    margin-top: 6rem;
+    border-top: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .box-footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+
+        p {
+            font-size: 2rem;
+            background-color: lightblue;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 1.5rem;
+            border: solid #000;
+        }
+    }
+
+    .redes {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        i {
+            font-size: 3rem;
+        }
+
+        .facebook, .instagram, .whatsapp {
+            color: #fff;
+            padding: 1.5rem;
+            border-radius: 30%;
+
+            &.facebook {
+                background-color: rgb(15, 15, 196);
+            }
+
+            &.instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+            }
+
+            &.whatsapp {
+                background-color: #128C7E;
+            }
+        }
+    }
+}
+
+// Clases Footer
+
+// Clases Productos
+
+.silla {
+    width: 10rem;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.sillon {
+    align-self: center;
+    box-sizing: border-box;
+}
