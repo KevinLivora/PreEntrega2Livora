@@ -12,8 +12,7 @@ img {
   width: 100%;
 }
 
-ul,
-ol {
+ul, ol {
   list-style-type: none;
 }
 
@@ -94,34 +93,19 @@ a {
 .footer .redes i {
   font-size: 3rem;
 }
-.footer .redes .facebook,
-.footer .redes .instagram,
-.footer .redes .whatsapp {
+.footer .redes .facebook, .footer .redes .instagram, .footer .redes .whatsapp {
   color: #fff;
   padding: 1.5rem;
   border-radius: 30%;
 }
-.footer .redes .facebook.facebook,
-.footer .redes .instagram.facebook,
-.footer .redes .whatsapp.facebook {
+.footer .redes .facebook.facebook, .footer .redes .instagram.facebook, .footer .redes .whatsapp.facebook {
   background-color: rgb(15, 15, 196);
 }
-.footer .redes .facebook.instagram,
-.footer .redes .instagram.instagram,
-.footer .redes .whatsapp.instagram {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+.footer .redes .facebook.instagram, .footer .redes .instagram.instagram, .footer .redes .whatsapp.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
-.footer .redes .facebook.whatsapp,
-.footer .redes .instagram.whatsapp,
-.footer .redes .whatsapp.whatsapp {
-  background-color: #128c7e;
+.footer .redes .facebook.whatsapp, .footer .redes .instagram.whatsapp, .footer .redes .whatsapp.whatsapp {
+  background-color: #128C7E;
 }
 
 .silla {
@@ -133,6 +117,34 @@ a {
 .sillon {
   align-self: center;
   box-sizing: border-box;
+}
+
+.card {
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.facebook {
+  transition: all 0.5s ease-in-out;
+}
+.facebook:hover {
+  transform: scale(1.2);
+}
+
+.instagram {
+  transition: all 0.5s ease-in-out;
+}
+.instagram:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp {
+  transition: all 0.5s ease-in-out;
+}
+.whatsapp:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

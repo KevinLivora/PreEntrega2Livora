@@ -1,0 +1,29 @@
+.card {
+    // Estilos base de las tarjetas
+    transition: all 0.5s ease-in-out; // Transición suave de 0.5 segundos
+  
+    &:hover {
+      transform: scale(1.05); // Zoom del 5% al pasar el cursor sobre la tarjeta
+    }
+  }
+
+.facebook {
+    transition: all 0.5s ease-in-out; 
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+.instagram {
+    transition: all 0.5s ease-in-out; 
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+.whatsapp {
+    transition: all 0.5s ease-in-out; 
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
