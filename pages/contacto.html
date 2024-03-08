@@ -68,31 +68,38 @@
 
     <!--Consulta-->
 
-    <section class="container mt-5" data-aos="zoom-in"
-    data-aos-duration="1000">
+    <section class="container mt-3 custom-section" data-aos="zoom-in" data-aos-duration="1000">
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
+          <label for="nombre" class="form-label custom-label">Nombre:</label>
+          <input type="text" class="form-control custom-input" id="nombre" placeholder="Ingrese su nombre">
+      </div>
+      <div class="mb-3">
+          <label for="apellido" class="form-label custom-label">Apellido:</label>
+          <input type="text" class="form-control custom-input" id="apellido" placeholder="Ingrese su apellido">
+      </div>
+      <div class="mb-3">
+          <label for="telefono" class="form-label custom-label">Teléfono:</label>
+          <input type="tel" class="form-control custom-input" id="telefono" placeholder="Ingrese su teléfono">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label custom-label"
           >Ingrese su email:</label
         >
         <input
           type="email"
-          class="form-control"
+          class="form-control custom-input"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
         />
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Su consulta:</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
+          <label for="exampleFormControlTextarea1" class="form-label custom-label">Su consulta:</label>
+          <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="button" class="btn btn-secondary">Enviar</button>
-    </section>
+      <button type="button" class="btn btn-secondary custom-button">Enviar</button>
+  </section>
+  
+  
 
     <!--/Consulta-->
 
